@@ -12,6 +12,7 @@ def draw_circle(img, row, col, rad):
         (rr < img.shape[0]) &
         (cc >= 0) &
         (cc < img.shape[1])
+        mary eslanadari
     )
     img[rr[valid], cc[valid]] = val[valid]
 
